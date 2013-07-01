@@ -18,6 +18,7 @@
     <groupId>Javascript</groupId>
     <artifactId>Javascript</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>js</packaging>
     <name>Javascript</name>
 
     <organization>

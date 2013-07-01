@@ -8,6 +8,9 @@
     <option name="pathToConfigFileJava" value="C:/Work/Vocation/eclipse-formatting-rules/formatting-rules.xml" />
     <option name="selectedJavaProfile" value="R-Style Guidelines" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
   <component name="IdProvider" IDEtalkID="649277F16DC113C72AAB6FECF64FB8D5" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">

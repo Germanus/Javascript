@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>JavaScript toFixed() Method</title>
+</head>
+<body>
+<script type="text/javascript">
+    function showHide(){
+        var div = document.getElementById('div');
+        div.style.display = (div.style.display == 'none') ? 'block' : 'none'
+    }
+
+    var num=177.1234;
+    document.write("num.toFixed() is : " + num.toFixed());
+    document.write("<br />");
+    document.write("num.toFixed(6) is : " + num.toFixed(6));
+    document.write("<br />");
+    document.write("num.toFixed(1) is : " + num.toFixed(1));
+    document.write("<br />");
+
+    document.write("(1.23e+20).toFixed(2) is:" +
+            (1.23e+20).toFixed(2));
+    document.write("<br />");
+    document.write("(1.23e-10).toFixed(2) is : " +
+            (1.23e-10).toFixed(2));
+</script>
+<div>
+    <button value="Show/Hide" onclick="showHide()" >
+        Show/Hide Source
+    </button>
+</div>
+<div id="div" style="width: 2000px">
+   <textarea cols='100' rows='28'>
+       var num=177.1234;
+       document.write("num.toFixed() is : " + num.toFixed());
+       document.write("<br />");
+       document.write("num.toFixed(6) is : " + num.toFixed(6));
+       document.write("<br />");
+       document.write("num.toFixed(1) is : " + num.toFixed(1));
+       document.write("<br />");
+
+       document.write("(1.23e+20).toFixed(2) is:" +
+       (1.23e+20).toFixed(2));
+       document.write("<br />");
+       document.write("(1.23e-10).toFixed(2) is : " +
+       (1.23e-10).toFixed(2));
+   </textarea>
+</div>
+</body>
+</html>

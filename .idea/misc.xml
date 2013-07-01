@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1369925380111" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="C:/Work/Vocation/eclipse-formatting-rules/formatting-rules.xml" />
+    <option name="selectedJavaProfile" value="R-Style Guidelines" />
+  </component>
+  <component name="IdProvider" IDEtalkID="649277F16DC113C72AAB6FECF64FB8D5" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+

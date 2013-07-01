@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Javascript" />
+        <module name="Javascript (1)" />
       </profile>
     </annotationProcessing>
   </component>

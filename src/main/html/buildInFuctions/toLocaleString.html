@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>JavaScript toFixed() Method</title>
+</head>
+<body>
+<script type="text/javascript">
+    function showHide(){
+        var div = document.getElementById('div');
+        div.style.display = (div.style.display == 'none') ? 'block' : 'none'
+    }
+
+    var num = new Number(177.1234);
+    document.write( num.toLocaleString());
+    document.write("<br />");
+    document.write( num);
+</script>
+<div>
+    <button value="Show/Hide" onclick="showHide()" >
+        Show/Hide Source
+    </button>
+</div>
+<div id="div" style="width: 2000px">
+   <textarea cols='100' rows='28'>
+       //Человеческий вид числа
+
+       var num = new Number(177.1234);
+       document.write( num.toLocaleString());
+       document.write( num);
+   </textarea>
+</div>
+</body>
+</html>

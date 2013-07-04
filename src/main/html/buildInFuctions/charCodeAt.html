@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>JavaScript toFixed() Method</title>
+</head>
+<body>
+<script type="text/javascript">
+    function showHide(){
+        var div = document.getElementById('div');
+        div.style.display = (div.style.display == 'none') ? 'block' : 'none'
+    }
+
+    var str = new String( "This is string" );
+    document.write("str.charCodeAt(0) is:" + str.charCodeAt(0));
+    document.write("<br />str.charCodeAt(1) is:" + str.charCodeAt(1));
+    document.write("<br />str.charCodeAt(2) is:" + str.charCodeAt(2));
+    document.write("<br />str.charCodeAt(3) is:" + str.charCodeAt(3));
+    document.write("<br />str.charCodeAt(4) is:" + str.charCodeAt(4));
+    document.write("<br />str.charCodeAt(5) is:" + str.charCodeAt(5));
+</script>
+<div>
+    <button value="Show/Hide" onclick="showHide()" >
+        Show/Hide Source
+    </button>
+</div>
+<div id="div" style="width: 2000px">
+   <textarea cols='100' rows='28'>
+       //возвращает код символа строки
+
+       var str = new String( "This is string" );
+       document.write("str.charCodeAt(0) is:" + str.charCodeAt(0));
+       document.write("<br />str.charCodeAt(1) is:" + str.charCodeAt(1));
+       document.write("<br />str.charCodeAt(2) is:" + str.charCodeAt(2));
+       document.write("<br />str.charCodeAt(3) is:" + str.charCodeAt(3));
+       document.write("<br />str.charCodeAt(4) is:" + str.charCodeAt(4));
+       document.write("<br />str.charCodeAt(5) is:" + str.charCodeAt(5));
+   </textarea>
+</div>
+</body>
+</html>

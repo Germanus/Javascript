@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>JavaScript toFixed() Method</title>
+</head>
+<body>
+<script type="text/javascript">
+    function showHide(){
+        var div = document.getElementById('div');
+        div.style.display = (div.style.display == 'none') ? 'block' : 'none'
+    }
+
+    var str1 = new String( "This is string one" );
+    var str2 = new String( "This is string two" );
+    var str3 = str1.concat( str2 );
+    document.write(str3);
+</script>
+<div>
+    <button value="Show/Hide" onclick="showHide()" >
+        Show/Hide Source
+    </button>
+</div>
+<div id="div" style="width: 2000px">
+   <textarea cols='100' rows='28'>
+       //сливает строки в одну
+
+       var str1 = new String( "This is string one" );
+       var str2 = new String( "This is string two" );
+       var str3 = str1.concat( str2 );
+       document.write(str3);
+
+   </textarea>
+</div>
+</body>
+</html>

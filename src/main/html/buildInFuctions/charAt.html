@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>JavaScript toFixed() Method</title>
+</head>
+<body>
+<script type="text/javascript">
+    function showHide(){
+        var div = document.getElementById('div');
+        div.style.display = (div.style.display == 'none') ? 'block' : 'none'
+    }
+
+    var str = new String( "This is string" );
+    document.writeln("str.charAt(0) is:" + str.charAt(0));
+    document.writeln("<br />str.charAt(1) is:" + str.charAt(1));
+    document.writeln("<br />str.charAt(2) is:" + str.charAt(2));
+    document.writeln("<br />str.charAt(3) is:" + str.charAt(3));
+    document.writeln("<br />str.charAt(4) is:" + str.charAt(4));
+    document.writeln("<br />str.charAt(5) is:" + str.charAt(5));
+</script>
+<div>
+    <button value="Show/Hide" onclick="showHide()" >
+        Show/Hide Source
+    </button>
+</div>
+<div id="div" style="width: 2000px">
+   <textarea cols='100' rows='28'>
+       //возвращает символ строки
+
+       var str = new String( "This is string" );
+       document.writeln("str.charAt(0) is:" + str.charAt(0));
+       document.writeln("<br />str.charAt(1) is:" + str.charAt(1));
+       document.writeln("<br />str.charAt(2) is:" + str.charAt(2));
+       document.writeln("<br />str.charAt(3) is:" + str.charAt(3));
+       document.writeln("<br />str.charAt(4) is:" + str.charAt(4));
+       document.writeln("<br />str.charAt(5) is:" + str.charAt(5));
+   </textarea>
+</div>
+</body>
+</html>

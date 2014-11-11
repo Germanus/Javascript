@@ -1,0 +1,35 @@
+<html>
+<script>
+	function init(){
+		//var collection = document.body.children;
+		//for(var i=0; i<collection.length; i++){
+			//alert(recursion(collection[i]));
+		//}
+		alert(recursion(document.body));		
+	}
+
+	function recursion(elem){
+		var collection = elem.children;
+		if(elem.children.length > 0){
+			for(var i=0; i<collection.length; i++){
+				return recursion(collection[i]);
+			}
+		} else {
+			if(elem.innerHTML.toString().indexOf('ILYA1') > -1){
+				return elem.innerHTML;
+			}
+		}
+	}
+	window.onload = init;
+</script>
+<body>
+<div>
+	<div>
+		<div>ILYA1</div>
+		<div>ILYA3</div>
+	</div>
+	<div>ILYA4</div>
+</div>
+
+</body>
+</html>

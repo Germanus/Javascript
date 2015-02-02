@@ -1,15 +1,22 @@
 <html>
 <script>
+
+	(function (){var cache = {}; window.nodeById = function(id){return cache[id] ? cache[id] : cache[id] = document.getElementById(id);}})();
+
 	function init(){
 		//var collection = document.body.children;
 		//for(var i=0; i<collection.length; i++){
 			//alert(recursion(collection[i]));
 		//}
+		//alert(document.getElementById('fff'));
 		alert(recursion(document.body));		
 	}
 
 	function recursion(elem){
 		var collection = elem.children;
+		alert(nodeById("ffff").innerHTML);
+		alert(document.getElementById("ffff").innerHTML);
+		
 		if(elem.children.length > 0){
 			for(var i=0; i<collection.length; i++){
 				return recursion(collection[i]);
@@ -25,7 +32,7 @@
 <body>
 <div>
 	<div>
-		<div>ILYA1</div>
+		<div id="ffff">ILYA1</div>
 		<div>ILYA3</div>
 	</div>
 	<div>ILYA4</div>
